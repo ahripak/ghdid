@@ -1,0 +1,50 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:github:ahripak",
+  "publicKey": [
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:ahripak#getDG54SQaSpACfnWA6GGPLm-EhYh0TR_xxBgUvr9m0",
+      "controller": "did:github:ahripak",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.4\r\nComment: https://openpgpjs.org\r\n\r\nxk8EXvTwkxMFK4EEAAoCAwTdY2JnHp43PmP5e9jhG0EDm+728N81H4vlWSf4\r\nXr7FDY4nZD0T612Ej2Xp1cx0bWud/8eoYVCQz8rWteCRCLdUzRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsJ4BBATCAAgBQJe9PCTBgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEACgkQGm4bbY9LUj++kAEAsUI/OGH8hByxXu+RnzG/MgR0\r\nhBC9A7wV305Kt0ULv6QA/0842XMPhR9uBK/OR+u2/dXmqnIqJGx0vBDEqxuW\r\nkr5GzlMEXvTwkxIFK4EEAAoCAwT9fKRfdfMACMMVRAA2jmSg+R0FBMFaZ30/\r\n4Qjm5pJN1WXC6LTcZuv7iNJrC6tDh7QuDw4yAkLyih9GYNLi1Vl/AwEIB8Jh\r\nBBgTCAAJBQJe9PCTAhsMAAoJEBpuG22PS1I/mjcBAOxvLoU5CZ0fwy08cyuZ\r\n4OZ1mA8IyU5VAHmyrAjS6wnLAP9N/OaegNPrZtiL4yq7DHh9YSRZQm9QoQEJ\r\nvx3JYx8hbg==\r\n=GyOW\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:ahripak#cBKaKnEM8DMSLCNVS3d0O9WjxIitvsEqqPf7hKshCyQ",
+      "controller": "did:github:ahripak",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.4\r\nComment: https://openpgpjs.org\r\n\r\nxk8EXvTwlBMFK4EEAAoCAwTfdvYMopWqgyI+JB+tOeKhLPhV+qLl3NOog1/L\r\nQjtNCzaZedUg0IBXAzsXAdZy71Pv43TneYWdQOfTZwE5N1yOzRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsJ4BBATCAAgBQJe9PCUBgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEACgkQJfuy6NAeEtMtVQD9FWCsS4cz6kxzFmmW64kOKIiN\r\n5B1enf47y1KMfTndQLwA/3HhdpnRy3wEyX6uRXrm4TQcLOE9QHy1wuFhPxVE\r\nC0LAzlMEXvTwlBIFK4EEAAoCAwS/Hwv6mZy9u5wp/Tsm7EnuLvJ7Jn2w881k\r\npKVCiWK1eXL6tAgqezdwjjJJZr49y4ECh/6DimjLxyyv/4GB9bYVAwEIB8Jh\r\nBBgTCAAJBQJe9PCUAhsMAAoJECX7sujQHhLTcKIBAOtcrMerNFXwBeyu+wHa\r\nL6hUjC05qb21sY3TFEeHr77wAQCpMz/N767jWIcTL3t88sbCzUFcA27MCKA1\r\neFpZU4dPuQ==\r\n=MUcJ\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "Ed25519VerificationKey2018",
+      "id": "did:github:ahripak#2Ep3TqJdgHSyazJcTvoDoepzFBCU47cjIpw_zfhXV3Y",
+      "controller": "did:github:ahripak",
+      "publicKeyBase58": "EwQL4MniNyWHHBKDfrevZSontuvcagSt5NirsiSmMTJB"
+    }
+  ],
+  "authentication": [],
+  "service": [],
+  "capabilityDelegation": [
+    "did:github:ahripak#2Ep3TqJdgHSyazJcTvoDoepzFBCU47cjIpw_zfhXV3Y"
+  ],
+  "capabilityInvocation": [
+    "did:github:ahripak#2Ep3TqJdgHSyazJcTvoDoepzFBCU47cjIpw_zfhXV3Y"
+  ],
+  "assertionMethod": [
+    "did:github:ahripak#2Ep3TqJdgHSyazJcTvoDoepzFBCU47cjIpw_zfhXV3Y"
+  ],
+  "keyAgreement": [
+    {
+      "id": "did:github:ahripak#zCCF8Afa1Sg3NDYPUbaY1Sg1ujnoMMerGftGp6e8LhbFUS",
+      "type": "X25519KeyAgreementKey2019",
+      "controller": "did:github:ahripak",
+      "publicKeyBase58": "CkQTJPCFJJ5nSLW9B3SUWrESYXYQ69fAzPX4o3YJV1NE"
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2020-06-25T18:44:36Z",
+    "verificationMethod": "did:github:ahripak#2Ep3TqJdgHSyazJcTvoDoepzFBCU47cjIpw_zfhXV3Y",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y7fx24VJaRFix24Ezf9SvqM4iGhzWc-HK8hChVrlYmmHYVT_0EsCYX-vSTXnWAWkL-GQYF8yzuwerlgHYe_5Ag"
+  }
+}
